@@ -1,0 +1,10 @@
+build/
+node_modules/
+
+*.iml
+.idea
+
+.gradle
+out
+
+.DS_Store

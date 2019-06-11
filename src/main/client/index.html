@@ -1,0 +1,24 @@
+<!doctype html>
+<html class="no-js"
+      lang="en"
+      itemscope="" itemtype="http://schema.org/WebPage"
+      xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" itemprop="description" property="og:description" th:content="${description}"/>
+    <meta name="keywords" content="Keywords For This Page"/>
+
+    <meta property="og:title" th:content="${title}"/>
+    <meta property="og:type" content="website"/>
+
+    <title th:text="${title}"></title>
+    <base href="/">
+</head>
+<body>
+<div id="root">
+    <div ui-view></div>
+</div>
+</body>
+</html>
