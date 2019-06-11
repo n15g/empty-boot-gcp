@@ -23,8 +23,8 @@ public class IndexController {
      */
     @GetMapping("/")
     public String index(Model model) {
-        model.addAttribute("title", "City of Badges");
-        model.addAttribute("description", "City of Heroes badge tracker.");
+        model.addAttribute("title", "SETME!");
+        model.addAttribute("description", "SETME!");
         return "index";
     }
 

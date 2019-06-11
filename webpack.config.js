@@ -115,7 +115,7 @@ module.exports = {
 
         // Rewrite index.html
         new HtmlWebpackPlugin({
-            title: 'City of Badges',
+            title: 'SETME!',
             template: path.resolve(input.src, 'index.html'),
             filename: `${output.templates}/index.html`,
         }),
