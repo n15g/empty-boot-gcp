@@ -1,9 +1,9 @@
 {
-  "name": "cityofbadges",
+  "name": "SETME!",
   "version": "1.0.0",
   "description": "City of Heroes Badge Tracker",
   "main": "index.js",
-  "repository": "https://github.com/n15g/cityofbadges.git",
+  "repository": "SETME!",
   "scripts": {
     "build": "webpack",
     "clean": "node clean.js",
