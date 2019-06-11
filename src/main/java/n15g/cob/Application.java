@@ -1,15 +1,12 @@
 package n15g.cob;
 
-import n15g.cob.config.ApplicationConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Import;
 
 /**
  * Application initialization class.
  */
 @SpringBootApplication
-@Import(ApplicationConfig.class)
 public class Application {
 
     /**
