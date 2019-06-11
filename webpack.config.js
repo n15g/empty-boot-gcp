@@ -97,6 +97,9 @@ module.exports = {
         writeToDisk: true,
         overlay: {
             errors: true
+        },
+        historyApiFallback: {
+            index: 'index.html'
         }
     },
 
