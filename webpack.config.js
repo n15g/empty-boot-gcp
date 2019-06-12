@@ -57,11 +57,11 @@ module.exports = {
                 include: /node_modules/,
             },
             {
-                test: /\.less$/,
+                test: /\.scss$/,
                 use: [
                     'style-loader',
                     'css-loader',
-                    'less-loader'
+                    'sass-loader'
                 ]
             },
             {
@@ -115,7 +115,7 @@ module.exports = {
 
         // Rewrite index.html
         new HtmlWebpackPlugin({
-            title: 'SETME!',
+            title: 'SETME',
             template: path.resolve(input.src, 'index.html'),
             filename: `${output.templates}/index.html`,
         }),

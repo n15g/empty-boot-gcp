@@ -1,7 +1,7 @@
 import * as angular from "angular";
-import * as AppModule from "./app";
+import * as AppModule from "./app.module";
 
-let app: typeof AppModule = require("./app");
+let app: typeof AppModule = require("./app.module");
 
 const bootstrap = () => {
     angular.bootstrap(document, ["app"], {
