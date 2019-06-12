@@ -3,11 +3,8 @@
 #    path: /api/**
 
 spring:
-  jackson:
-    serialization:
-      WRITE_DATES_AS_TIMESTAMPS: false
-  mvc:
-    static-path-pattern: /static/**
-    throw-exception-if-no-handler-found: true
-  thymeleaf:
-    mode: LEGACYHTML5
+    jackson:
+        serialization:
+            WRITE_DATES_AS_TIMESTAMPS: false
+    mvc:
+        throw-exception-if-no-handler-found: true
