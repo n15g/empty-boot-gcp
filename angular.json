@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "angular8": {
+        "SETME": {
             "projectType": "application",
             "schematics": {
                 "@schematics/angular:component": {
@@ -62,19 +62,19 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "browserTarget": "angular8:build",
+                        "browserTarget": "SETME:build",
                         "proxyConfig": "proxy.conf.json"
                     },
                     "configurations": {
                         "production": {
-                            "browserTarget": "angular8:build:production"
+                            "browserTarget": "SETME:build:production"
                         }
                     }
                 },
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "browserTarget": "angular8:build"
+                        "browserTarget": "SETME:build"
                     }
                 },
                 "test": {
@@ -111,16 +111,16 @@
                     "builder": "@angular-devkit/build-angular:protractor",
                     "options": {
                         "protractorConfig": "e2e/protractor.conf.js",
-                        "devServerTarget": "angular8:serve"
+                        "devServerTarget": "SETME:serve"
                     },
                     "configurations": {
                         "production": {
-                            "devServerTarget": "angular8:serve:production"
+                            "devServerTarget": "SETME:serve:production"
                         }
                     }
                 }
             }
         }
     },
-    "defaultProject": "angular8"
+    "defaultProject": "SETME"
 }
