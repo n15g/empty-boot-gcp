@@ -1,4 +1,4 @@
-package n15g.cob;
+package n15g.setme;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package n15g.cob.config;
+package n15g.setme.config;
 
 import com.google.appengine.api.taskqueue.Queue;
 import com.google.appengine.api.taskqueue.QueueFactory;

@@ -1,8 +1,8 @@
-package n15g.cob.config;
+package n15g.setme.config;
 
 import contrib.springframework.data.gcp.objectify.config.ObjectifyConfigurer;
-import n15g.cob.entity.Server;
-import n15g.cob.entity.ServerGroup;
+import n15g.setme.entity.Server;
+import n15g.setme.entity.ServerGroup;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package n15g.cob.config;
+package n15g.setme.config;
 
 import org.springframework.boot.web.server.ErrorPage;
 import org.springframework.boot.web.server.WebServerFactoryCustomizer;

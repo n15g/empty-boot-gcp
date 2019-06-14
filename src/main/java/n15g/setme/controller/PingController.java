@@ -1,4 +1,4 @@
-package n15g.cob.controller;
+package n15g.setme.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

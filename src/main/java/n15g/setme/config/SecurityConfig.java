@@ -1,4 +1,4 @@
-package n15g.cob.config;
+package n15g.setme.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

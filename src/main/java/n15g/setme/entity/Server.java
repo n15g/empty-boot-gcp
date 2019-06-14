@@ -1,10 +1,10 @@
-package n15g.cob.entity;
+package n15g.setme.entity;
 
 import com.googlecode.objectify.Key;
 import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
 import com.googlecode.objectify.annotation.Parent;
-import n15g.cob.util.KeyGenerator;
+import n15g.setme.util.KeyGenerator;
 
 /**
  * CoH server.
