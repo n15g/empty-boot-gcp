@@ -1,6 +1,7 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {MainNavComponent} from './main-nav.component';
+import {AppModule} from "../app.module";
 
 describe('MainNavComponent', () => {
     let component: MainNavComponent;
@@ -8,7 +9,7 @@ describe('MainNavComponent', () => {
 
     beforeEach(async(() => {
         TestBed.configureTestingModule({
-            declarations: [MainNavComponent]
+            imports: [AppModule]
         })
             .compileComponents();
     }));
